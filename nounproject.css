@@ -52,3 +52,34 @@ table {
   margin-left: 24%;
   
 }
+.myDiv {
+  border: 5px outset Pink;
+  background-color: ;
+  float: right;
+}
+.myDiv2 {
+  border: 5px outset #fad184;
+  background-color: ;
+  float: left;
+}
+.myDiv3 {
+  border: 5px outset #fad184;
+  display: inline-block;
+  background-color: ;
+  float: center;
+  font-color: #592b58; 
+} 
+.myDiv4 {
+  border: 5px outset Pink;
+  display: inline-block;
+  background-color: ;
+  float: left;
+  font-color: #592b58;
+} 
+.myDiv5 {
+  border: 5px outset Pink;
+  display: inline-block;
+  background-color: ;
+  float: right;
+  font-color: #592b58;
+} 
