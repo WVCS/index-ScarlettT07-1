@@ -24,3 +24,14 @@ nav {
 
 }
 
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: #fce1d7;
+  color: #5d65a3;
+}
