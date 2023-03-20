@@ -79,8 +79,8 @@ text-align: center
   grid-template: 
     "A " auto
     "D E F"; 
-  grid-row-gap: 5%;
-  grid-column-gap: 5%; 
+  grid-row-gap: 4%;
+  grid-column-gap: 0%; 
   
 }
 
@@ -92,5 +92,11 @@ background-color: #5a6685;
 font-family: cursive; 
 }
 .D { 
+
+}
+@media only screen and (max-width: 1024px) { 
+  .container { 
+  flex-direction: column; 
+  }
 
 }
