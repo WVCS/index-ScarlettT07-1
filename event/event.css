@@ -95,8 +95,16 @@ font-family: cursive;
 
 }
 @media only screen and (max-width: 1024px) { 
+  .wrapper { 
+  flex-direction: column; 
+  }
   .container { 
   flex-direction: column; 
+    grid-template: 
+    "A " auto
+    "D " 
+    "E"
+    "F"; 
   }
 
 }
