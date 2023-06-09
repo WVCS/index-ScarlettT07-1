@@ -1,0 +1,117 @@
+body {
+  background-color: #8B9D83;  
+}
+.navbar {
+  overflow: hidden;
+  background-color: #19647E; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 23px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:  #5b7aa3;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#A { 
+background:#19647E;
+width:100%;
+text-align: center; 
+padding: 25px; 
+color: #BD897E; 
+}
+
+.autocomplete { 
+background-color: lightpink; 
+}
+
+#myInput {
+width: 1300%; 
+background-color: lightpink; 
+}
+
+#entireDiv { 
+position: fixed; 
+} 
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+.image {
+flex: 1 0 30%;
+margin: 10px;
+}
+
+.image img {
+ width: 100%;
+ height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+ .image { 
+   flex: 1 0 100%;
+}
+}
+
+.alert {
+  background-color:#EAF0CE;
+  padding: 20px;
+  font-color: #574B60;
+}
+
+.alertclosebutton {
+  float: right;
+  color: #3F334D;
+  cursor: crosshair;
+  font-size: 5vh;
+}
